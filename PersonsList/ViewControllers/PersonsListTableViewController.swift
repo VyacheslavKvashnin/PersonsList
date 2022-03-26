@@ -7,10 +7,9 @@
 
 import UIKit
 
-class PersonsListViewController: UITableViewController {
+class PersonsListTableViewController: UITableViewController {
 
-    
-    let person = Person.getPerson(for: DataManager())
+    var person: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,17 +23,17 @@ class PersonsListViewController: UITableViewController {
     }
 }
 
-extension PersonsListViewController {
+extension PersonsListTableViewController {
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         person.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personID", for: indexPath)
-        
         var content = cell.defaultContentConfiguration()
         let currentIndex = person[indexPath.row]
-        content.text = "\(currentIndex.name) \(currentIndex.lastName)"
+        content.text = currentIndex.fullName
         cell.contentConfiguration = content
         
         return cell

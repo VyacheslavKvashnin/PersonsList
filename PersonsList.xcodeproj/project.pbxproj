@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BDBC1E8027EEC8FE0038110C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E7F27EEC8FE0038110C /* AppDelegate.swift */; };
 		BDBC1E8227EEC8FE0038110C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E8127EEC8FE0038110C /* SceneDelegate.swift */; };
-		BDBC1E8427EEC8FE0038110C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E8327EEC8FE0038110C /* ViewController.swift */; };
+		BDBC1E8427EEC8FE0038110C /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E8327EEC8FE0038110C /* PersonsListViewController.swift */; };
 		BDBC1E8727EEC8FE0038110C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBC1E8527EEC8FE0038110C /* Main.storyboard */; };
 		BDBC1E8927EEC8FF0038110C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBC1E8827EEC8FF0038110C /* Assets.xcassets */; };
 		BDBC1E8C27EEC8FF0038110C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBC1E8A27EEC8FF0038110C /* LaunchScreen.storyboard */; };
+		BDBC1E9927EEDE6C0038110C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E9827EEDE6C0038110C /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDBC1E7C27EEC8FE0038110C /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBC1E7F27EEC8FE0038110C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBC1E8127EEC8FE0038110C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDBC1E8327EEC8FE0038110C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDBC1E8327EEC8FE0038110C /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		BDBC1E8627EEC8FE0038110C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDBC1E8827EEC8FF0038110C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBC1E8B27EEC8FF0038110C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBC1E8D27EEC8FF0038110C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBC1E9827EEDE6C0038110C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 		BDBC1E9527EECA190038110C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				BDBC1E8327EEC8FE0038110C /* ViewController.swift */,
+				BDBC1E8327EEC8FE0038110C /* PersonsListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 		BDBC1E9727EECA530038110C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BDBC1E9827EEDE6C0038110C /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,8 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDBC1E8427EEC8FE0038110C /* ViewController.swift in Sources */,
+				BDBC1E8427EEC8FE0038110C /* PersonsListViewController.swift in Sources */,
 				BDBC1E8027EEC8FE0038110C /* AppDelegate.swift in Sources */,
+				BDBC1E9927EEDE6C0038110C /* Person.swift in Sources */,
 				BDBC1E8227EEC8FE0038110C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

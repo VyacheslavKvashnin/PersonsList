@@ -15,6 +15,7 @@
 		BDBC1E8C27EEC8FF0038110C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBC1E8A27EEC8FF0038110C /* LaunchScreen.storyboard */; };
 		BDBC1E9927EEDE6C0038110C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E9827EEDE6C0038110C /* Person.swift */; };
 		BDBC1E9C27EEDFC00038110C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E9B27EEDFC00038110C /* DataManager.swift */; };
+		BDBC1E9E27EEEBA50038110C /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E9D27EEEBA50038110C /* DetailPersonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BDBC1E8D27EEC8FF0038110C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBC1E9827EEDE6C0038110C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		BDBC1E9B27EEDFC00038110C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BDBC1E9D27EEEBA50038110C /* DetailPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				BDBC1E8327EEC8FE0038110C /* PersonsListViewController.swift */,
+				BDBC1E9D27EEEBA50038110C /* DetailPersonViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				BDBC1E8427EEC8FE0038110C /* PersonsListViewController.swift in Sources */,
 				BDBC1E9C27EEDFC00038110C /* DataManager.swift in Sources */,
+				BDBC1E9E27EEEBA50038110C /* DetailPersonViewController.swift in Sources */,
 				BDBC1E8027EEC8FE0038110C /* AppDelegate.swift in Sources */,
 				BDBC1E9927EEDE6C0038110C /* Person.swift in Sources */,
 				BDBC1E8227EEC8FE0038110C /* SceneDelegate.swift in Sources */,

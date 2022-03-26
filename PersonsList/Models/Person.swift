@@ -12,10 +12,6 @@ struct Person {
     let phone: String
     let email: String
     
-    var fullName: String {
-        "\(name) \(lastName)"
-    }
-    
     static func getPerson(for manager: DataManager) -> [Person] {
         
         var person: [Person] = []
@@ -32,10 +28,8 @@ struct Person {
                 phone: phone[item],
                 email: email[item]
             )
-            
             person.append(persons)
         }
-        
         return person
     }
 }

@@ -14,6 +14,7 @@
 		BDBC1E8927EEC8FF0038110C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBC1E8827EEC8FF0038110C /* Assets.xcassets */; };
 		BDBC1E8C27EEC8FF0038110C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBC1E8A27EEC8FF0038110C /* LaunchScreen.storyboard */; };
 		BDBC1E9927EEDE6C0038110C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E9827EEDE6C0038110C /* Person.swift */; };
+		BDBC1E9C27EEDFC00038110C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1E9B27EEDFC00038110C /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BDBC1E8B27EEC8FF0038110C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBC1E8D27EEC8FF0038110C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBC1E9827EEDE6C0038110C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		BDBC1E9B27EEDFC00038110C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				BDBC1E9527EECA190038110C /* ViewControllers */,
 				BDBC1E9727EECA530038110C /* Models */,
+				BDBC1E9A27EEDF970038110C /* Services */,
 				BDBC1E9327EEC9F60038110C /* Storyboards */,
 				BDBC1E9627EECA2B0038110C /* App */,
 				BDBC1E9427EECA050038110C /* Resurces */,
@@ -108,6 +111,14 @@
 				BDBC1E9827EEDE6C0038110C /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BDBC1E9A27EEDF970038110C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BDBC1E9B27EEDFC00038110C /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBC1E8427EEC8FE0038110C /* PersonsListViewController.swift in Sources */,
+				BDBC1E9C27EEDFC00038110C /* DataManager.swift in Sources */,
 				BDBC1E8027EEC8FE0038110C /* AppDelegate.swift in Sources */,
 				BDBC1E9927EEDE6C0038110C /* Person.swift in Sources */,
 				BDBC1E8227EEC8FE0038110C /* SceneDelegate.swift in Sources */,

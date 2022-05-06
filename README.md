@@ -14,4 +14,14 @@
 Для этого используйте секции, в качестве заголовков для которых нужно передать полное имя контакта. Каждая секция должна содержать 2 строки с и-мейлом 
 и телефоном.
 
+<img src = "https://user-images.githubusercontent.com/101284761/167187396-570f7513-0367-4550-b9a7-4bac204e598f.png" width = "300">
+<img src = "https://user-images.githubusercontent.com/101284761/167187497-3d3c0484-be4f-4871-96de-c2e2d2d63da2.png" width = "300">
 
+
+==========================================================
+
+> + UITableViewController
+> + UITableView
+> + UITableViewDataSource 
+> + UITableViewDelegate
+> + UITableViewCell
